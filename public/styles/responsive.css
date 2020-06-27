@@ -1,0 +1,81 @@
+@media (max-width: 900px) {
+  #page-home {
+    background-position: 70vw;
+  }
+
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
+
+  #page-create-point > form > button {
+    margin-left: 306px;
+  }
+}
+
+@media (min-width: 1700px) {
+  #page-home {
+    background-position: 40vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  #modal .content {
+    width: 380px;
+  }
+
+  #modal .header a {
+    width: 26px;
+  }
+}
+
+@media (max-width: 1366px) {
+  #page-home .content {
+    max-width: 1000px;
+  }
+}
+
+@media (max-height: 768px) {
+  #page-home {
+    height: 100vh;
+    background-position-y: 200px;
+  }
+  #page-search-results > main > div > div:nth-child(1) > h3 {
+    margin: 18px 0 18px;
+    font-size: 20px;
+  }
+
+  #page-search-results > main > div > div:nth-child(2) > h3 {
+    margin: 18px 0 18px;
+    font-size: 20px;
+  }
+}
+
+@media (max-height: 900px) {
+  #page-home {
+    height: 100vh;
+  }
+}
